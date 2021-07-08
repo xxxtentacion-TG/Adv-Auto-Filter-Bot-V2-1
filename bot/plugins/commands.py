@@ -89,7 +89,6 @@ async def start(bot, update):
         return
 
     buttons = [[
-        buttons = [[
         inlinekeyboardbutton("text", url="https://t.me/MGMOVIEGRAM"),
         inlinekeyboardbutton("text2", url="https://t.me/MGMOVIEGRAM")
     ],[

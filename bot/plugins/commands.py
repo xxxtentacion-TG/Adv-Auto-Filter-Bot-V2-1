@@ -109,9 +109,11 @@ async def help(bot, update):
     buttons = [[
         InlineKeyboardButton('Home ⚡', callback_data='start'),
         InlineKeyboardButton('About 🚩', callback_data='about')
-    ],[
+        ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
-    ]]
+        ],[
+        InlineKeyboardButton("text2", url="https://t.me/MGMOVIEGRAM")
+        ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     

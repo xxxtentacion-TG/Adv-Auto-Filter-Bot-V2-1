@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        inlinekeyboardbutton("text", url="https://t.me/MGMOVIEGRAM"),
-        inlinekeyboardbutton("text2", url="https://t.me/MGMOVIEGRAM")
+        InlineKeyboardButton("text", url="https://t.me/MGMOVIEGRAM"),
+        InlineKeyboardButton("text2", url="https://t.me/MGMOVIEGRAM")
     ],[
-        inlinekeyboardbutton("text3", url="https://t.me/MGMOVIEGRAM")
+        InlineKeyboardButton("text3", url="https://t.me/MGMOVIEGRAM")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)

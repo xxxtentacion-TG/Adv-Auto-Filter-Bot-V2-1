@@ -92,9 +92,14 @@ async def start(bot, update):
         InlineKeyboardButton("text", url="https://t.me/MGMOVIEGRAM"),
         InlineKeyboardButton("text2", url="https://t.me/MGMOVIEGRAM")
         ],[
-        InlineKeyboardButton("text3", url="https://t.me/MGMOVIEGRAM")
+        InlineKeyboardButton("text3", url="https://t.me/MGMOVIEGRAM"),
+        InlineKeyboardButton("text5", url="https://t.me/MGMOVIEGRAM")
         ],[
-        InlineKeyboardButton("text4", url="https://t.me/MGMOVIEGRAM"),
+        InlineKeyboardButton("text5", url="https://t.me/MGMOVIEGRAM"),
+        InlineKeyboardButton("text6", url="https://t.me/MGMOVIEGRAM")
+        ],[
+        InlineKeyboardButton("text5", url="https://t.me/MGMOVIEGRAM"),
+        InlineKeyboardButton("text6", url="https://t.me/MGMOVIEGRAM")
         ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     

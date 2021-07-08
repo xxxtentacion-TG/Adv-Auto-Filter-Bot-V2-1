@@ -91,9 +91,9 @@ async def start(bot, update):
     buttons = [[
         InlineKeyboardButton("text", url="https://t.me/MGMOVIEGRAM"),
         InlineKeyboardButton("text2", url="https://t.me/MGMOVIEGRAM")
-    ],[
+        ],[
         InlineKeyboardButton("text3", url="https://t.me/MGMOVIEGRAM")
-    ]]
+        ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
